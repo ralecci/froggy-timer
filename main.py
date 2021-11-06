@@ -46,7 +46,7 @@ window.title("s t u d y ~ !")
 window.config(padx=25, pady=10, bg=PINK)
 
 canvas = Canvas(width=259, height=263, highlightthickness=0)
-froggy = PhotoImage(file="C:/Users//Downloads/babyfroggy2.png")
+froggy = PhotoImage(file="babyfroggy2.png")
 canvas.create_image(129, 132, image=froggy)
 timer_text = canvas.create_text(138, 150, text="00:00", fill=PURPLE, font=(FONT_NAME, 35, "bold"))
 canvas.grid(column=1, row=1)
